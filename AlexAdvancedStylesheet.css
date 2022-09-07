@@ -1,0 +1,20 @@
+
+body {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: bisque; /* Fallback Color in case Browser cant read rgb */
+    background-color: rgb(0, 242, 161);
+}
+
+#article {
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+    font-family: 'Roboto Condensed',"Trebuchet MS", Helvetica, sans-serif;/* if first font not available, browser will try 2nd,3rd and so on*/
+}
+
+
+.italic {
+    font-style: italic;
+}
